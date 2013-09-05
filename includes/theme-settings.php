@@ -54,8 +54,9 @@
 			 * This theme uses wp_nav_menu() in one location.
 			 */
 			register_nav_menus( array(
-				'make-primary' => __( 'Make Primary Nav', 'make-community' ),
+				'make-primary' 	 => __( 'Make Primary Nav', 'make-community' ),
 				'make-secondary' => __( 'Make Secondary Nav', 'make-community' ),
+				'make-sub'		 => __( 'Make Community Nav', 'make-sub' )
 			) );
 
 			/**

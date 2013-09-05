@@ -98,3 +98,18 @@
 				</div>
 			</div>
 		</header>
+
+		<div id="primary" class="container content-area">
+			<main id="main" class="row site-main" role="main">
+				
+				<h1 class="title">Maker Community <span>(beta)</span></h1>
+
+				<nav role="navigation" class="col-md-12 site-navigation sub-navigation">
+					<?php
+						wp_nav_menu( array(
+							'theme_location' => 'make-sub', 
+							'container'      => false, 
+							'menu_class'     => 'nav menu-sub-nav ga-nav clearfix',
+						) );
+					?>
+				</nav>
