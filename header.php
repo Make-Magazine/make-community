@@ -66,6 +66,9 @@
 							?>
 						</nav>
 						<div class="additional-content">
+							<div class="login">
+								
+							</div>
 							<div class="subscribe dropdown clearfix">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Subscribe</a>
 								<ul class="dropdown-menu">

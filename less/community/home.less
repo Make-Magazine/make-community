@@ -1,0 +1,35 @@
+
+// Styles pertaining to the home page
+.col-container, .topic-photo {
+	.remove-gutter( left );
+}
+
+.col-container {
+	.col-wrapper();
+	.remove-gutter( both );
+	.topic-item {
+		margin:10px 10px 20px;
+		.clearfix();
+	}
+	.topic-body {
+		h3 {
+			font-size:18px;
+			font-weight:bold;
+			margin-top:0;
+		}
+		.topic-post-meta {
+			font-size:14px;
+			color:#999;
+			font-style:italic;
+		}
+	}
+	.topic-meta {
+		background:#E4E4E4;
+		padding:10px;
+		text-align:center;
+		.border-radius( 5px );
+		p {
+			margin:0;
+		}
+	}
+}
